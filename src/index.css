@@ -36,3 +36,104 @@ h2 {
 	text-align: center;
 	padding-top: 200px;
 }
+
+.underline {
+	width: 6rem;
+	height: 0.25rem;
+	background: blue;
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-top: 20px; */
+}
+.main-image img {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin: 0 auto;
+	margin-bottom: 1.5rem;
+}
+
+.main-review {
+	background-color: white;
+	padding: 20px;
+	width: 450px;
+	margin: auto;
+	margin-top: 20px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.main-quote-box {
+	position: absolute;
+	top: 20px;
+	left: 150px;
+	font-size: 1.4rem;
+	color: white;
+	background-color: blue;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	z-index: 1;
+}
+.main-quote {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.suprise-me {
+	margin-top: 0.5rem;
+	background: hsl(205, 100%, 96%);
+	color: hsl(205, 78%, 60%);
+	padding: 0.25rem 0.5rem;
+	text-transform: capitalize;
+	border-radius: 0.25rem;
+	border-color: transparent;
+	cursor: pointer;
+}
+
+.review-name {
+	font-size: 1.2rem;
+	font-weight: 800;
+}
+
+.review-job {
+	color: hsl(205, 78%, 60%);
+}
+
+.review-description {
+	padding: 10px;
+	font-size: 1rem;
+	opacity: 0.8;
+}
+
+.chevron {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.prev-btn {
+	font-size: 1.25rem;
+	background: transparent;
+	border-color: transparent;
+	margin: 0 .5rem;
+	cursor: pointer;
+	color: hsl(205, 78%, 60%);
+}
+
+.next-btn {
+	font-size: 1.25rem;
+	background: transparent;
+	border-color: transparent;
+	margin: 0 .5rem;
+	cursor: pointer;
+	color: hsl(205, 78%, 60%);
+}
